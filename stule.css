@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  /* height: 100vh; */
+  justify-content: space-between;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+  /* padding-top: 50px; */
+  margin-top: -10px;
+  display: flex;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: hwb(180 34% 51%);
+  color: rgb(224, 211, 211);
+  border-radius: 5px;
+}
+
+.footer {
+  margin-top: -20;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  border-radius: 50%;
+  margin-right: 900px;
+}
+
+h1 {
+  margin-top: 100px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #383838;
+  text-align: center;
+}
+
+.main {
+  /* margin-top: 50px; */
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  width: 440px;
+  display: flex;
+  justify-content: center;
+}
+
+.cart {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+.bitt {
+  /* display: flex */
+}
+
+.yangiliklar-text {
+  display: flex;
+  justify-content: center;
+}
+
+.ol-text {
+  display: flex;
+  justify-content: center;
+}
